@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css_selector.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <title> CSS TEST </title>
+</head>
+<body>
+    <h1>Hello , Hello</h1>
+
+    <div>
+       <h2>CSS TEST</h2>
+       <p>TedSun</p>
+    </div>
+       <p>Tedshd</p>
+    <div class="tran"></div>
+       <div class="tran-text">I will show you</div>
+
+    <div id="fake" class="add">
+        <div class="fake_test"> hello , sunshine </div>
+    </div>
+
+    <div id="fake2" class="add2">
+        <div class="fake_test2"> hello , sunshine2 </div>
+    </div>   
+
+    <div id="bg-1" class="add">hello , hello</div>
+
+    <div id="click-show" class="">
+        click me
+    </div>
+
+    <div id="new"> </div>
+</body>
+<script>
+        $('#click-show').on('click', function () {
+                        $('#click-show').toggleClass('click_pic');
+                            })
+</script>
+</html>
